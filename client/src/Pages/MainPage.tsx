@@ -2,6 +2,7 @@ import React,{useEffect, useRef} from 'react';
 import Chart from '../Components/Echarts';
 import LineChart from '../Components/Theme/line-charts';
 import PieChart from '../Components/Type/PieCharts';
+import RealTimeChart from '../Components/RealTime/real-time-charts';
 
 function MainPage():JSX.Element{
  return(
@@ -22,6 +23,10 @@ function MainPage():JSX.Element{
       <div style={{marginTop: '15%'}}>
       <h2>다양한 종류의 차트</h2>
       <PieChart />
+      </div>
+
+      <div style={{marginTop: '10%'}}>
+        <RealTimeChart />
       </div>
       
     </div>

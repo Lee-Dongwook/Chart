@@ -19,7 +19,7 @@ const LineChart = ():JSX.Element => {
            ]
     })
     return(
-        <ECharts option={options} theme="myTheme" opts={{renderer: 'svg', width: 600, height: 600 }} />
+        <ECharts option={options} theme="myTheme" opts={{renderer: 'svg', width: 600, height: 400 }} />
     )
 }
 

@@ -21,7 +21,7 @@ const Chart = ():JSX.Element => {
 
 
 return(
-  <ECharts option={options} opts={{renderer: 'svg', width: 600, height: 600}} />
+  <ECharts option={options} opts={{renderer: 'svg', width: 600, height: 400}} />
 )
 }
 

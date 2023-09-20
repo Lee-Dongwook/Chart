@@ -18,6 +18,7 @@ function MainPage():JSX.Element{
         </td>
       </table>
       </div>
+      
       <div style={{marginTop: '15%'}}>
       <h2>다양한 종류의 차트</h2>
       <PieChart />

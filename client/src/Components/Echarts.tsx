@@ -1,5 +1,5 @@
-import React, {useState, useEffect} from 'react';
-import ECharts, {EChartsReactProps} from 'echarts-for-react';
+import React, {useState} from 'react';
+import ECharts from 'echarts-for-react';
 
 const Chart = ():JSX.Element => {
  const [options, setOptions] = useState({
@@ -25,4 +25,4 @@ return(
 )
 }
 
-export default Chart
+export default Chart;

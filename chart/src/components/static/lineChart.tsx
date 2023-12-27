@@ -1,10 +1,10 @@
 import React from "react";
 import ReactECharts from "echarts-for-react";
 
-const BarChart = () => {
+const LineChart = () => {
   const data = [20, 50, 80, 45, 60];
 
-  const option = {
+  const option: echarts.EChartsOption = {
     xAxis: {
       type: "category",
       data: ["Mon", "Tue", "Wed", "Thu", "Fri"],
@@ -15,7 +15,7 @@ const BarChart = () => {
     series: [
       {
         data: data,
-        type: "bar",
+        type: "line",
       },
     ],
   };
@@ -25,4 +25,4 @@ const BarChart = () => {
   );
 };
 
-export default BarChart;
+export default LineChart;
